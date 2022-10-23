@@ -1,0 +1,125 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    color: #192b59;
+    font-size: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6e7ea9;
+    text-transform: uppercase;
+}
+
+.nav a {
+    color: #6e7ea9;
+}
+
+.btn button {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.gst {
+    color: #ffffff;
+    background-color: #1085e4
+}
+
+.lmr {
+    color: #7e8bae;
+    background-color: #cbdbe8;
+}
+
+.bft {
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+    color: #192b59;
+}
+
+.ftr {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1085e4;
+    display: block;
+}
+
+.features h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.features p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7581a1;
+}
+
+.features a {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1085e4;
+    display: block;
+}
+
+.txt {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7581a1;
+}
+
+.founder {
+    color: #000000;
+}
+
+.rosalina {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.subscribe h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+
+.subscribe span {
+    display: block;
+    font-size: 14px;
+    font-weight: 800;
+    color: #00bffe;
+}
+.subscribe p {
+    font-size: 18px;
+    font-weight: 400px;
+    color: #dfe8ff;
+}
+
+.subscribe input {
+    font-size: 14px;
+    font-weight: 400px;
+    color: #b1c3ee;
+}
+
+.subscribe button {
+    font-size: 14px;
+    font-weight: 700px;
+    color: #ffffff;
+    background-color: #1085e4;
+}
