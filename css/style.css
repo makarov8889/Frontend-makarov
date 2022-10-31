@@ -123,3 +123,75 @@ a {
     color: #ffffff;
     background-color: #1085e4;
 }
+
+.btn-primary{
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 17px 33px;
+    border: 1px solid #1085e4;
+}
+
+.btn-secondary{
+    background-color: #cbdbe8;
+    color: #7e8bae;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 16px 28px;
+    border: 1px solid #cbdbe8;
+    letter-spacing: 1px;
+}
+
+.btn-free {
+    font-weight: 400;
+    padding: 16px 45px;
+}
+
+.btn-subscribe{
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 11px 35px;
+    border: 1px solid #1085e4;
+}
+
+.btn-learnmore{
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 16px 50px;
+    border: 1px solid #1085e4; 
+}
+
+.btn-submitnow{
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 15px 51px;
+    border: 1px solid #1085e4;
+}
+
+.btn-Chooseplan2{
+    background-color: #f5faff;
+    color: #8085b1;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 15px 51px;
+    border: 1px solid #f5faff;
+}
