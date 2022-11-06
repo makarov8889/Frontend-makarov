@@ -7,6 +7,9 @@ h1 {
     font-weight: 600;
     color: #192b59;
     font-size: 80px;
+    letter-spacing: -2px;
+    line-height: 90px;
+    max-width: 550px;
 }
 
 a {
@@ -14,13 +17,26 @@ a {
 }
 
 .nav {
+    display: flex;
     font-size: 12px;
     font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.nav a {
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.nav>li{
+    padding: 0 19px;
+}
+
+.nav-item{
     color: #6e7ea9;
 }
 
@@ -194,4 +210,54 @@ a {
     border-radius: 30px;
     padding: 15px 51px;
     border: 1px solid #f5faff;
+}
+
+.grid h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #192b59;
+}
+
+.grid h2 span {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1085e4;
+    text-transform: uppercase;
+    display: block;
+}
+
+.grid-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.grid-item a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1085e4;
+}
+
+.list-counter{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.list-counter>li{
+    font-size: 12px;
+    color: #1085e4;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.list-counter>li>span{
+    font-size: 60px;
+    letter-spacing: -2px;
+    color: #bacbdc;
+    display: block;
+    margin-bottom: 5px;
 }
