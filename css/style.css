@@ -151,6 +151,11 @@ a {
     border: 1px solid #1085e4;
 }
 
+.btn-primary:hover {
+    background-color: #fff;
+    color: #1085e4;
+}
+
 .btn-secondary{
     background-color: #cbdbe8;
     color: #7e8bae;
@@ -161,6 +166,10 @@ a {
     padding: 16px 28px;
     border: 1px solid #cbdbe8;
     letter-spacing: 1px;
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
 }
 
 .btn-free {
@@ -179,6 +188,10 @@ a {
     border: 1px solid #1085e4;
 }
 
+.btn-subscribe:hover {
+    background-color: #dce1e5;
+}
+
 .btn-learnmore{
     background-color: #1085e4;
     color: #fff;
@@ -188,6 +201,10 @@ a {
     border-radius: 30px;
     padding: 16px 50px;
     border: 1px solid #1085e4; 
+}
+
+.btn-learnmore:hover {
+    background-color: #dce1e5;
 }
 
 .btn-submitnow{
@@ -201,6 +218,10 @@ a {
     border: 1px solid #1085e4;
 }
 
+.btn-submitnow:hover {
+    background-color: #dce1e5;
+}
+
 .btn-Chooseplan2{
     background-color: #f5faff;
     color: #8085b1;
@@ -210,6 +231,14 @@ a {
     border-radius: 30px;
     padding: 15px 51px;
     border: 1px solid #f5faff;
+}
+
+.btn-Chooseplan2:hover {
+    background-color: #dce1e5;
+}
+
+.btn-group button+button {
+    margin-left: 15px;
 }
 
 .grid h2 {
