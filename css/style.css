@@ -16,6 +16,97 @@ a {
     text-decoration: none;
 }
 
+.page-header{
+    position: relative;
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 300px;
+}
+
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.box-header{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 350px;
+}
+
+.logo{
+    background-image: url(../img/logo.png);
+    display: block;
+    width: 181px;
+    height: 49px;
+}
+
+.sponsors{
+    background-image: url(../img/company-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.list-sponsors{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.list-sponsors-item{
+    display: block;
+    flex-basis: 20%;
+    background-repeat: no-repeat;
+}
+
+.sponsor-one{
+    background-image: url(../img/company-1.png);
+    width: 198px;
+    height: 58px;
+}
+
+.sponsor-two{
+    background-image: url(../img/company-2.png);
+    width: 200px;
+    height: 69px;
+}
+
+.sponsor-three{
+    background-image: url(../img/company-3.png);
+    width: 201px;
+    height: 47px; 
+}
+
+.sponsor-four{
+    background-image: url(../img/company-4.png);
+    width: 200px;
+    height: 69px;
+}
+
+.sponsors{
+    background-image: url(../img/company-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0 100px 0;
+}
+
+.screen-img{
+    background-image: url(../img/bg.png);
+    display: block;
+    width: 895px;
+    height: 740px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+
 .nav {
     display: flex;
     font-size: 12px;
@@ -27,18 +118,10 @@ a {
     padding: 0;
 }
 
-.wrap {
-    max-width: 1110px;
-    margin: 0 auto;
-}
-
 .nav>li{
     padding: 0 19px;
 }
 
-.nav-item{
-    color: #6e7ea9;
-}
 
 .btn button {
     font-size: 12px;
@@ -152,6 +235,7 @@ a {
 }
 
 .btn-primary:hover {
+
     background-color: #fff;
     color: #1085e4;
 }
@@ -241,17 +325,93 @@ a {
     margin-left: 15px;
 }
 
+.screenshot .title-h2 {
+    text-align: center;
+}
+
+.screenshot {
+    background-color: #edf6ff;
+    padding: 70px 0 0 0;
+    text-align: center;
+}
+
+.page-plan {
+    text-align: center;
+    padding: 10px 0 120px 0;
+}
+
+.box-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-price-item.active {
+    background-color: #192b59;
+    color: #fff;
+}
+
+.box-price-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.box-price-item h3 {
+    color: #192b59;
+    font-size: 70px;
+    letter-spacing: -1px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.box-price-item h3 span {
+    font-size: 20px;
+}
+
+.box-price-item h3 span:last-child {
+    color: #9ca8c7;
+}
+
+.box-price-item p {
+    font-size: 14px;
+    color: #0084ff;
+    letter-spacing: 3px;
+    margin-top: 0;
+}
+
+.box-price-item.active {
+    background-color: #192b59;
+    color: #fff;
+}
+
+.box-price-item.active h3,
+.box-price-item.active h3 span:first-child {
+    color: #fff;
+}
+
+.page-plan .btn-primary {
+    padding: 22px 65px;
+}
+
+.page-plan .btn-primary:hover {
+    background: transparent;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: "a b c" "d b c" "d e f" "g e f" "g h h";
+}
+
+/* Блок page-grid */
+
 .grid h2 {
     font-size: 40px;
-    font-weight: 700;
     color: #192b59;
+    font-weight: 700;
 }
 
 .grid h2 span {
     font-size: 14px;
-    font-weight: 800;
     color: #1085e4;
-    text-transform: uppercase;
     display: block;
 }
 
@@ -265,6 +425,161 @@ a {
     font-size: 14px;
     font-weight: 600;
     color: #1085e4;
+}
+
+
+/* Конец Блок page-grid */
+
+.grid-item{
+    text-align:center;
+    box-shadow: 0 0 5px #f4f4f4;
+}
+
+.grid-icon{
+    display: block;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.grid-icon-1{
+    background-image: url(../img/bg-2.png);
+    width: 55px;
+    height: 70px;
+}
+
+.grid-icon-2{
+    background-image: url(../img/Rounded\ Rectangle\ 1.png);
+    width: 95px;
+    height: 90px;
+}
+
+.grid-icon-3{
+    background-image: url(../img/bg\ \(2\).png);
+    width: 80px;
+    height: 79px;
+}
+
+.grid-icon-4{
+    background-image: url(../img/Polygon\ 2.png);
+    width: 87px;
+    height: 93px;
+}
+
+.grid-icon-5{
+    background-image: url(../img/Shape\ 1.png);
+    width: 100px;
+    height: 87px;
+}
+
+.grid-icon-6{
+    background-image: url(../img/Polygon\ 1.png);
+    width: 104px;
+    height: 95px;
+}
+
+.grid-item-title{
+    grid-area: a;
+}
+
+.grid-item-1{
+    grid-area:b;
+}
+
+.grid-item-2{
+    grid-area:c;
+}
+
+.grid-item-3{
+    grid-area:d;
+}
+.grid-item-4{
+    grid-area:e;
+}
+
+.grid-item-5{
+    grid-area:f;
+}
+
+.grid-item-6{
+    grid-area:g;
+}
+
+.grid-text{
+    grid-area:h;
+}
+
+.box-price-item ul>li {
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    margin-bottom: 24px;
+}
+
+.box-price-item ul {
+    margin-bottom: 70px;
+}
+
+.box-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.box-price-item {
+    background-color: #f5faff;
+    flex-basis: 32%;
+    padding: 60px 0 105px 0;
+    position: relative;
+}
+
+.box-price-item::after {
+    content: "";
+    width: 65px;
+    height: 100%;
+    background-image: url(../img/tr.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box-prise-item.active::after {
+    content: "";
+    display: none;
+}
+
+.title-h2 {
+    font-size: 50px;
+    letter-spacing: -2px;
+    color: #192b59;
+    font-weight: 600;
+}
+
+.title-h2 span {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #1085e4;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.title-h2-40 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #192b59;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.title-h2-40 span {
+    display: block;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color:#1085e4;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 5px;
 }
 
 .list-counter{
@@ -289,4 +604,16 @@ a {
     color: #bacbdc;
     display: block;
     margin-bottom: 5px;
+}
+
+.page-counter .title-h2 {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.page-counter {
+    background-color: #edf6ff;
+    padding:120px 0 100px 0; 
 }
