@@ -547,6 +547,67 @@ a {
     display: none;
 }
 
+.box-subscribe-user input::-weblit-input-placeholder{
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input::-moz-placeholder{
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input:-moz-placeholder{
+    color: #b1c3ee;
+}
+
+.box-subscribe-user input::-ms-input-placeholder{
+    color: #b1c3ee;
+}
+
+.box-subscribe-user{
+    position: relative;
+}
+
+.box-subscribe-user .btn-primary{
+    position:absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.box-subscribe-user input {
+    border: 2px solid #3f5cb1;
+    font-size: 14px;
+    border-radius: 45px;
+    color: #fff;
+    background-color: transparent;
+    padding: 25px 230px 25px 37px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.box-subscribe-user input:focus,
+.box-subscribe-user .btn-primary{
+    outline: none;
+    
+}
+
+.box-subscribe-user input {
+    border: 2px solid #3f5cb1;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 45px;
+    background-color: transparent;
+    padding: 25px 230px 25px 37px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 10px 20px 30px rgba(146, 226, 250, 0.5);
+}
+
+.box-subscribe-child{
+    flex-basis: 49%;
+}
+
 .title-h2 {
     font-size: 50px;
     letter-spacing: -2px;
